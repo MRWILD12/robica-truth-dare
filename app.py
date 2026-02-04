@@ -4,7 +4,16 @@
 ربات جرأت یا حقیقت برای Robica
 نسخه کامل با توکن واقعی
 """
+from flask import Flask, request, jsonify
+import requests
+import random
+app = Flask(__name__)
 
+
+TOKEN = "GIIJJ0DWRJGREKPRNJJXNSGGJVJNGWMMZGUWKZZSKEBUCFKFVEUNOHKZIWVKCGTL"
+API_URL = "https://botapi.rubika.ir/v3/"
+
+print("🤖 ربات جرأت یا حقیقت شروع شد...")
 import json
 import random
 import time
