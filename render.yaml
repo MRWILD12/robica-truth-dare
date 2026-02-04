@@ -1,6 +1,1 @@
-services:
-- type: web
-  name: rubika-ultimate-game
-  env: python
-  buildCommand: pip install -r requirements.txt
-  startCommand: gunicorn app:app
+
