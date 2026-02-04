@@ -1,7 +1,6 @@
 services:
-  - type: web
-    name: robica-truth-dare
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+- type: web
+  name: rubika-ultimate-game
+  env: python
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn app:app
